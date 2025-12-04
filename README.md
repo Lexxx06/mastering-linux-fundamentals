@@ -63,3 +63,73 @@ I) **uname -a, whoami, id, hostname**
 
 
 
+📌 PART 2 — Permissions, Users, Groups & Processes
+
+1. File Permissions
+ 
+Permission Breakdown
+
+**r** = read
+**w** = write
+**x** = execute
+
+a)**ls -l**
+   View permissions
+
+  **e:g**
+  -rwxr-x---  1 annon admins 4096 script.sh
+  
+b)**chmod**
+   Change permissions
+
+c)**chown**
+    Change Ownership
+
+
+2. Managing Users & Groups
+
+ a)  **sudo useradd john**\ Add a new user
+     **sudo passwd john**/
+
+ b) **sudo groupadd developers**
+     Create a group
+
+ c)**sudo usermod -aG developers john**
+     Add user to group
+
+
+
+3. Managing Processes
+   a) **ps aux, top**
+        View running processes
+
+
+  b)**kill**
+      Kill a process
+
+ c) **env, echo, export**
+      Environment Variables
+
+
+
+
+📌 PART 3 — File Operations, Networking, Services & Scripting
+
+1. File Manipulation
+   
+   a)**cp** 
+        Copy file
+   
+   b)**mv**
+       move file
+   
+   c)**rm** 
+       remove file
+
+   d)**tar**
+      Archieve a file
+
+   e)**gzip**
+       compress a file
+
+
